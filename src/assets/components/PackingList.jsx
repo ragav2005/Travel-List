@@ -36,7 +36,7 @@ export default function PackingList({ items, onDelete, onChecked, onReset }) {
           onChange={(e) => setSortBy(e.target.value)}
         >
           <option value="input">Sort By Input</option>
-          <option value="description">Sort By Description</option>
+          <option value="description">Sort By Name</option>
           <option value="packed">Sort By Packed status</option>
         </select>
         <button onClick={onReset}>reset</button>
